@@ -1,8 +1,8 @@
 <TaskerData sr="" dvi="1" tv="5.9.3">
-	<Task sr="task38">
+	<Task sr="task59">
 		<cdate>1597698819223</cdate>
-		<edate>1599523095459</edate>
-		<id>38</id>
+		<edate>1599679505682</edate>
+		<id>59</id>
 		<nme>MintFamilyDatCheck</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
@@ -20,6 +20,16 @@
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>123</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">am force-stop com.uvnv.mintsim</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act11" ve="7">
 			<code>20</code>
 			<App sr="arg0">
 				<appClass>com.ultramobile.mint.initial.InitialSelectionActivity</appClass>
@@ -30,7 +40,7 @@
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act12" ve="7">
 			<code>1040876951</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -88,7 +98,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigUIQuery</Str>
 			<Int sr="arg3" val="50"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act13" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
@@ -101,12 +111,12 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>39</code>
 			<Str sr="arg0" ve="3">%phnum</Str>
 			<Str sr="arg1" ve="3">%phnums()</Str>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -122,7 +132,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act16" ve="7">
 			<code>1732635924</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -174,7 +184,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigPerformAction</Str>
 			<Int sr="arg3" val="60"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act17" ve="7">
 			<code>1732635924</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -226,10 +236,10 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigPerformAction</Str>
 			<Int sr="arg3" val="60"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act18" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act19" ve="7">
 			<code>1732635924</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -288,7 +298,20 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act2" ve="7">
+			<code>417</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">datnotify.txt</Str>
+			<Str sr="arg1" ve="3">%datnotify</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%success</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>1732635924</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -347,20 +370,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>417</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">datnotify.txt</Str>
-			<Str sr="arg1" ve="3">%datnotify</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%success</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act21" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%phnum</Str>
 			<Str sr="arg1" ve="3">\D</Str>
@@ -371,7 +381,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act22" ve="7">
 			<code>1040876951</code>
 			<label>querymonthuse</label>
 			<Bundle sr="arg0">
@@ -436,7 +446,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act23" ve="7">
 			<code>1040876951</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -500,7 +510,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act24" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
@@ -513,13 +523,13 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act25" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%months</Str>
 			<Str sr="arg1" ve="3">%space</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act26" ve="7">
 			<code>1732635924</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -578,7 +588,7 @@ Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act27" ve="7">
 			<code>1040876951</code>
 			<label>querydatause</label>
 			<se>false</se>
@@ -619,7 +629,7 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg2" ve="3">com.joaomgcd.autoinput.activity.ActivityConfigUIQuery</Str>
 			<Int sr="arg3" val="5"/>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act28" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
@@ -632,7 +642,7 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act29" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%remaindays</Str>
 			<Str sr="arg1" ve="3">1 day left i guess</Str>
@@ -654,17 +664,6 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act29" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%remaindays</Str>
-			<Str sr="arg1" ve="3">\d+</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-			<Str sr="arg5" ve="3">%remaindays</Str>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%datnotify</Str>
@@ -684,6 +683,17 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 		</Action>
 		<Action sr="act30" ve="7">
 			<code>598</code>
+			<Str sr="arg0" ve="3">%remaindays</Str>
+			<Str sr="arg1" ve="3">\d+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Str sr="arg5" ve="3">%remaindays</Str>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>598</code>
 			<Str sr="arg0" ve="3">%remaindata</Str>
 			<Str sr="arg1" ve="3">\wB$</Str>
 			<Int sr="arg2" val="0"/>
@@ -693,13 +703,13 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act32" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%remaindata</Str>
 			<Str sr="arg1" ve="3">/</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act33" ve="7">
 			<code>547</code>
 			<label>0</label>
 			<Str sr="arg0" ve="3">%actualuse</Str>
@@ -709,7 +719,7 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act34" ve="7">
 			<code>547</code>
 			<label>1</label>
 			<Str sr="arg0" ve="3">%actualpcnt</Str>
@@ -719,7 +729,7 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act35" ve="7">
 			<code>547</code>
 			<label>2</label>
 			<Str sr="arg0" ve="3">%idealuse</Str>
@@ -729,7 +739,7 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act36" ve="7">
 			<code>547</code>
 			<label>3</label>
 			<Str sr="arg0" ve="3">%idealpcnt</Str>
@@ -739,7 +749,7 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act37" ve="7">
 			<code>547</code>
 			<label>4</label>
 			<Str sr="arg0" ve="3">%warnpcnt</Str>
@@ -749,7 +759,7 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act38" ve="7">
 			<code>547</code>
 			<label>5</label>
 			<Str sr="arg0" ve="3">%datadenom</Str>
@@ -759,7 +769,7 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act39" ve="7">
 			<code>547</code>
 			<label>6</label>
 			<Str sr="arg0" ve="3">%months</Str>
@@ -769,7 +779,16 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="1"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act4" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%fraction_left_warn_sendmsg</Str>
+			<Str sr="arg1" ve="3">true</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>1186637727</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -791,21 +810,12 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg2" ve="3">org.kustom.lib.editor.tasker.EditVarActivity</Str>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%fraction_left_warn_sendmsg</Str>
-			<Str sr="arg1" ve="3">true</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act40" ve="7">
+		<Action sr="act41" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Updated %phnum widget</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act42" ve="7">
 			<code>598</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%datnotify</Str>
@@ -817,7 +827,7 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg6" val="0"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act43" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%phread</Str>
 			<Str sr="arg1" ve="3">%phread(1)</Str>
@@ -826,13 +836,13 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act44" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%phread</Str>
 			<Str sr="arg1" ve="3">_</Str>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act45" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<bool0>And</bool0>
@@ -854,12 +864,12 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act46" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Sending notif to %phnum...</Str>
 			<Int sr="arg1" val="0"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act47" ve="7">
 			<code>41</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%phnum</Str>
@@ -868,7 +878,7 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Str sr="arg3" ve="3"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act48" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%datnotify</Str>
 			<Str sr="arg1" ve="3">\Q%phread\E</Str>
@@ -879,7 +889,7 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">%phnum_%DATE</Str>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act49" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%datnotify</Str>
 			<Str sr="arg1" ve="3">%datnotify%newline%phnum_%DATE</Str>
@@ -895,17 +905,6 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act49" ve="7">
-			<code>598</code>
-			<Str sr="arg0" ve="3">%datnotify</Str>
-			<Str sr="arg1" ve="3">%newline%newline</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">%newline</Str>
-		</Action>
 		<Action sr="act5" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%fraction_left_warn_buffer</Str>
@@ -916,6 +915,17 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act50" ve="7">
+			<code>598</code>
+			<Str sr="arg0" ve="3">%datnotify</Str>
+			<Str sr="arg1" ve="3">%newline%newline</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">%newline</Str>
+		</Action>
+		<Action sr="act51" ve="7">
 			<code>410</code>
 			<Str sr="arg0" ve="3">datnotify.txt</Str>
 			<Str sr="arg1" ve="3">%datnotify</Str>
@@ -929,10 +939,10 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act52" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act53" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%shouldgoback</Str>
 			<Str sr="arg1" ve="3">True</Str>
@@ -948,7 +958,7 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act53" ve="7">
+		<Action sr="act54" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%isfamily</Str>
 			<Str sr="arg1" ve="3">True</Str>
@@ -957,12 +967,22 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 		</Action>
-		<Action sr="act54" ve="7">
+		<Action sr="act55" ve="7">
 			<code>40</code>
 		</Action>
-		<Action sr="act55" ve="7">
-			<code>123</code>
+		<Action sr="act56" ve="7">
+			<code>18</code>
 			<label>endTask</label>
+			<App sr="arg0">
+				<appClass>com.ultramobile.mint.initial.InitialSelectionActivity</appClass>
+				<appPkg>com.uvnv.mintsim</appPkg>
+				<label>Mint Mobile</label>
+			</App>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act57" ve="7">
+			<code>123</code>
+			<on>false</on>
 			<Str sr="arg0" ve="3">am force-stop com.uvnv.mintsim</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="1"/>
@@ -999,27 +1019,16 @@ Variables: remaindays, remaindata</com.twofortyfouram.locale.intent.extra.BLURB>
 			<Int sr="arg5" val="3"/>
 		</Action>
 		<Action sr="act9" ve="7">
-			<code>123</code>
-			<Str sr="arg0" ve="3">am force-stop com.uvnv.mintsim</Str>
+			<code>18</code>
+			<App sr="arg0">
+				<appClass>com.ultramobile.mint.initial.InitialSelectionActivity</appClass>
+				<appPkg>com.uvnv.mintsim</appPkg>
+				<label>Mint Mobile</label>
+			</App>
 			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>cust_transparent</nme>
 		</Img>
 	</Task>
 </TaskerData>
-r sr="arg0" ve="3">%mdays</Str>
-			<Str sr="arg1" ve="3">30</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%newline</Str>
-			<Str sr=
